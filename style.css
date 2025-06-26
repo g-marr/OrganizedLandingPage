@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url("pinkbackground.png") no-repeat fixed top center;
+}
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#top {
+  width: 1000px;
+  margin: auto;
+  position: static;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: hotpink;
+}
+.toptext {
+  color: rgb(77, 61, 74);
+  text-align: center;
+}
+#menu {
+  width: 300px;
+  margin: auto 0;
+  position: relative;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+.labeltop {
+  width: 300px;
+  height: 80px;
+  background-color: rgba(227, 38, 221, 0.3);
+  border: solid;
+  border-color: hotpink;
+  border-width: 7px;
+  border-radius: 25px;
+}
+.menubottom {
+  width: 300px;
+  height: 500px;
+  background-color: rgba(227, 38, 221, 0.3);
+  border: solid;
+  border-color: hotpink;
+  border-width: 7px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: rgb(230, 23, 127);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(141, 14, 128);
+}
+a:active {
+  color: red;
+}
