@@ -25,6 +25,24 @@ body {
   color: rgb(77, 61, 74);
   text-align: center;
 }
+#main {
+  width: 70%;
+  margin: 1.5%;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-left: 5%;
+}
+.image {
+  width: 955px;
+  height: 587px;
+  background-color: rgba(227, 38, 221, 0.3);
+  border: solid;
+  border-color: hotpink;
+  border-width: 7px;
+  border-radius: 25px;
+}
 #menu {
   width: 300px;
   margin: auto 0;
@@ -32,6 +50,7 @@ body {
   padding: 30px;
   text-align: center;
   color: white;
+  float: left;
 }
 .labeltop {
   width: 300px;
@@ -56,7 +75,7 @@ body {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 a {
@@ -64,7 +83,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(141, 14, 128);
+  color: rgb(255, 255, 255);
 }
 a:active {
   color: red;
