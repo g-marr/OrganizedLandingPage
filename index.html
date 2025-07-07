@@ -16,9 +16,9 @@
   <body>
     <div id="top">
       <section class="toptext">
-        <header><h1 class="audiowide-regular">Page</h1></header>
+        <header><h1 class="audiowide-regular">Salmon_Kersplat</h1></header>
         <h3 class="audiowide-regular">
-          Welcome to my landing page! Here you can find my socials, recent
+          Welcome to therahband's page! Here you can find my socials, recent
           activity and commission information
         </h3>
       </section>
@@ -45,21 +45,34 @@
           </li>
         </ul>
         <p class="audiowide-regular">Commisson Information</p>
-        <ul>
-          <li>
-            Info
-          </li>
-          <li>
-            Prices
-          </li>
-          <li>
-            Examples
-          </li>
-        </ul>
+        <button type="button">Info</button>
+        <button type="button" onclick="function2()">Prices</button>
+        <button type="button" onclick="function1()">Examples</button>
       </article>
     </div>
+    <script>
+      function function1() {
+        var x = document.getElementById("main");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    <script>
+      function function2() {
+        var x = document.getElementById("priceslist");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    <iframe width="900" height="560" src="https://www.youtube.com/embed/LxpXihAVVwc" title="The Most Violent Topology I Could Find" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <div id="main">
-      <article class="image">
+    <article class="image">
         <p>examples</p>
         <img src="images/example.png" alt="placeholder image for commissions" usemap="#example">
         <map name="example">
@@ -67,5 +80,35 @@
         </map>
       </article>
     </div>
+    <div id="priceslist">
+      <table class="audiowide-regular">
+        <tr>
+          <th>Sketch</th>
+          <th>Flat Colors</th>
+          <th>Full Colored</th>
+        </tr>
+        <tr>
+          <td>&#128178 5.00</td>
+          <td>&#128178 8.00</td>
+          <td>&#128178 10.00</td>
+        </tr>
+        <tr>
+          <td>Simplistic Sketch.</td>
+          <td>Lined or lineless piece.</td>
+          <td>Lined or lineless shaded piece.</td>
+        </tr>
+        <tr>
+          <td>No Color.</td>
+          <td>Flat Color.</td>
+          <td>Shaded Color.</td>
+        </tr>
+        <tr>
+          <td>No Background. Added background includes $2.00 fee</td>
+          <td>Simple Background. Added complexity includes $4.00 fee</td>
+          <td>Simple Background. Added complexity includes $8.00 fee.</td>
+        </tr>
+      </table>
+    </div>
+    <footer class="audiowide-regular">&#169 2025 therahband</footer>
   </body>
 </html>
