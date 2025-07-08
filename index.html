@@ -45,7 +45,7 @@
           </li>
         </ul>
         <p class="audiowide-regular">Commisson Information</p>
-        <button type="button">Info</button>
+        <button type="button" onclick="function3()">Info</button>
         <button type="button" onclick="function2()">Prices</button>
         <button type="button" onclick="function1()">Examples</button>
       </article>
@@ -70,7 +70,16 @@
         }
       }
     </script>
-    <iframe width="900" height="560" src="https://www.youtube.com/embed/LxpXihAVVwc" title="The Most Violent Topology I Could Find" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <script>
+      function function3() {
+        var x = document.getElementById("toslist");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
     <div id="main">
     <article class="image">
         <p>examples</p>
@@ -109,6 +118,38 @@
         </tr>
       </table>
     </div>
+    <div id="toslist">
+      <article class="audiowide-regular">
+        <h2>T.O.S</h2>
+        <dl>
+          <dt>Conduct</dt>
+          <dd>Any aggressive, hateful,threatening, or inappropriate behavior will not be tolerated.</dd>
+          <dd>Any commission requests is an automatic agreement to the terms listed below.</dd>
+          <dd>I reserve the right to decline any commission requests.</dd>
+          <dd>I do not consent to any public use of my commissions.</dd>
+          <dd>I do not consent to any AI training off my commissions.</dd>
+        </dl>
+        <article>
+        <h3>What I will draw</h3>
+        <ul class="dos">
+          <li>&#9989 Fanart</li>
+          <li>&#9989 OCs</li>
+          <li>&#9989 Romantic couplings</li>
+          <li>&#9989 Portraits</li>
+          <li>&#9989 Light Gore</li>
+          <li>&#9989 Anthro characters</li>
+        </ul>
+        <h3>What I will NOT Draw</h3>
+        <ul class="donts">
+          <li>&#10060 Incestual Relationships</li>
+          <li>&#10060 Pedophilic Relationships</li>
+          <li>&#10060 Abusive imagery</li>
+          <li>&#10060 Fetishistic Content</li>
+        </ul>
+        </article>
+      </article>
+    </div>
+    <iframe width="900" height="560" src="https://www.youtube.com/embed/LxpXihAVVwc" title="The Most Violent Topology I Could Find" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <footer class="audiowide-regular">&#169 2025 therahband</footer>
   </body>
 </html>
